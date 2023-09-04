@@ -1,0 +1,11 @@
+[package]
+name = "yolov8"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ndarray = "0.15.6"
+ort = { version = "1.15.2", features = ["coreml"] }
+tracing-subscriber = "0.3.17"
+image = { version = "0.24.7" }
+json = "0.12.4"

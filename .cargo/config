@@ -1,0 +1,3 @@
+# .cargo/config.toml
+[target.aarch64-apple-darwin]
+rustflags = [ "-Clink-args=-Wl,-rpath,@loader_path" ]
